@@ -1,0 +1,30 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    /* background: #000;
+    background: #fff; */
+    background-color: #E52222;
+    box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+}
+.navbar-content {
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #f2f2f2;
+  }
+  .navbar-content .links {
+    margin-left: auto;
+  }
+  .navbar-content a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+    color: black;
+    font-weight: 700;
+  }
+  .navbar-content a:hover {
+    color: #d5d5d5;
+  }
