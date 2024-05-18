@@ -17,14 +17,18 @@
   }
   .navbar-content .links {
     margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .navbar-content a {
+  .navbar-content p {
     margin-left: 16px;
     text-decoration: none;
     padding: 6px;
     color: black;
     font-weight: 700;
   }
-  .navbar-content a:hover {
-    color: #d5d5d5;
+  .navbar-content p:hover {
+    color: #ffffff;
+    cursor: pointer;
   }

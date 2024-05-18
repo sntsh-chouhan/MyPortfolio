@@ -1,9 +1,10 @@
 import React from 'react';
 import '../css/Skills.css';
 
-const Skills = () => {
+const Skills =({ scrollTo, refs }) => {
+    
     return ( 
-        <div className="skills-root">
+        <div className="skills-root" id='skill' ref={refs.Skill}>
             <div className="skillContent">
                 <h1>Skills</h1>
                 <div className="subSkill">
@@ -39,6 +40,6 @@ const Skills = () => {
             </div>
         </div>
      );
-}
+};
  
 export default Skills;

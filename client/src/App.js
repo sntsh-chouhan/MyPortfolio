@@ -1,26 +1,32 @@
 import {BrowserRouter} from 'react-router-dom';
-import React from 'react';
+import React, { useRef } from 'react';
 
 import Navigation from './components/Navigation';
 import Introduction from './components/Introduction';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
 
-// import 
 
-function App() {
-  return (
-    <BrowserRouter>
-        <Navigation />
-        <Introduction />
-        <Skills />
-    </BrowserRouter>
+const App = () => {
+    const Home= useRef(null);
+    const Skill = useRef(null);
+    const Project = useRef(null);
+    const Experience = useRef(null);
+    const Contact = useRef(null);
+
+    const scrollToComponent = (ref) => {
+        ref.current.scrollIntoView({ behavior: 'smooth' });
+    };
+
+    const refs = { Home, Skill, Project, Experience, Contact };
     
-    // <Router>
-    //     <div className="App">
-
-    //     </div>
-    // </Router>
-    
+    return (
+        <BrowserRouter>
+            <Navigation scrollTo={scrollToComponent} refs={refs}/>
+            <Introduction scrollTo={scrollToComponent} refs={refs}/>
+            <Skills scrollTo={scrollToComponent} refs={refs}/>
+            <Projects scrollTo={scrollToComponent} refs={refs}/>
+        </BrowserRouter>
   );
 }
 
