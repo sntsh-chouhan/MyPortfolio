@@ -1,0 +1,86 @@
+.about-root{
+    height: auto;
+    background-color: #fbfbfb;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.aboutContent{
+    max-width: 80%;
+    margin: auto;
+    padding: 10px;
+    /* background-color: aqua; */
+}
+.aboutContent h1{
+    text-align: center;
+    font-size: 4rem;
+    margin: 0px;
+}
+.aboutEducation{
+    /* background-color: blueviolet; */
+}
+.subheading h1{
+    font-size: 2.5rem;
+    text-align: start;
+    margin-bottom: 20px;
+}
+.educationblock{
+    display: flex;
+    padding: 20px;
+    background-color: rgba(218, 218, 218, 0.392);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    /* width: 80%; */
+    align-items: center;
+}
+.aboutImg img{
+    /* height: inherit; */
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+@media (max-width: 1000px) {
+    .aboutImg img{
+        display: none;
+    }
+  }
+.aboutInfo{
+    /* display:grid; */
+    width: 100%;
+}
+.aboutInfo h4{
+    margin: 0;
+}
+.institute{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* background-color: green; */
+}
+.institute h2{
+    margin: 0;
+    margin-right: auto;
+    
+}
+.instituteWork{
+    display: flex;
+    align-items: center;
+}
+.instituteWork p{
+    margin: 0;
+    margin-right: 4px;
+}
+.degree{
+    font-weight: 600;
+    
+}
+.activity{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(218, 218, 218, 0.392);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.activity h2{
+    margin: 0;
+}

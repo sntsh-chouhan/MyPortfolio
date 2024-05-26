@@ -1,0 +1,149 @@
+.projects-root{
+    height: auto;
+    background-color: #ffffff;
+    padding-top: 80px;
+}
+.projectContent{
+    max-width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+.projectContent h1{
+    text-align: center;
+    font-size: 4rem;
+    margin: 0px;
+}
+.subProject{
+    display: flex;
+    flex-direction: column;
+
+}
+.projectDetails{
+    /* display: flex; */
+    width: 100%;
+    /* height: auto; */
+    /* height: 300px; */
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+.projectImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.projectImage img{
+    width: 50%;
+    height: 30%;
+    
+    border-radius: 10px;
+}
+.projectInfo{
+    /* width: 50%; */
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    margin: 0px 80px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items:flex-start;
+    
+}
+.projectInfo h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    /* margin-bottom: 20px; */
+}
+.projectInfo p{
+    text-align:start;
+
+}
+.projectInfo .button{
+    margin: 0;
+}
+
+@media (max-width: 1200px) {
+    .projectInformation{
+        display: none;
+    }
+  }
+
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-main{
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 700px;
+    width: 80%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+} 
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+.modalcontent h2{
+    margin-bottom: 20px;
+}
+.modalcontent p{
+    justify-content: center;
+    text-align: center;
+}
+.imageWrapper {
+    display: block;
+    margin: auto;
+    width: 150px; /* Set the desired width for the image */
+    height: auto; /* Maintain aspect ratio */
+    overflow: hidden; /* Hide any overflow */
+  }
+  
+.imageLink img {
+    width: 100%; /* Make the image take up the full width of the wrapper */
+    height: auto; /* Maintain aspect ratio */
+  }
+.modalImg{
+    display: block;
+    margin: auto;
+}
+.display-block {
+    display: flex;
+}
+.display-none {
+    display: none;
+}
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}

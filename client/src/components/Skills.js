@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/Skills.css';
+import { SkillList } from '../data/skillList';
 
 const Skills =({ scrollTo, refs }) => {
     
@@ -7,36 +8,17 @@ const Skills =({ scrollTo, refs }) => {
         <div className="skills-root" id='skill' ref={refs.Skill}>
             <div className="skillContent">
                 <h1>Skills</h1>
-                <div className="subSkill">
-                    <h2>Web Development</h2>
-                    <div className="subSkill-box">
-                        <div className="skillName">HTML</div>
-                        <div className="skillName">CSS</div>
-                        <div className="skillName">Bootstrap</div>
-                        <div className="skillName">NodeJS</div>
-                        <div className="skillName">ExpressJS</div>
-                        <div className="skillName">ReactJS</div>
-                    </div>
-                    
-                </div>
-                <div className="subSkill">
-                    <h2>Languages</h2>
-                    <div className="subSkill-box">
-                        <div className="skillName">Javascript</div>
-                        <div className="skillName">Python</div>
-                        <div className="skillName">C</div>
-                        <div className="skillName">C++</div>    
-                    </div>
-                    
-                </div>
-                <div className="subSkill">
-                    <h2>Database Management</h2>
-                    <div className="subSkill-box">
-                        <div className="skillName">MySQL</div>
-                        <div className="skillName">MongoDB</div>    
-                    </div>
-                    
-                </div>
+                <div className="underline"></div>
+                {SkillList.map((SkillHead)=>(
+                        <div className="subSkill">
+                            <h2>{SkillHead.feild}</h2>
+                            <div className="subSkill-box">
+                                {SkillHead.skills.map((skillName, idx) => (
+                                        <div className="skillName" key={idx}>{skillName}</div>
+                                    ))}
+                            </div>
+                        </div>
+                    ))}
             </div>
         </div>
      );

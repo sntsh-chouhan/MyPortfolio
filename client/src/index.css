@@ -19,3 +19,67 @@ body {
       monospace;
   }
   
+  
+.button{
+    height: 60px;
+    width: 250px;
+    margin: auto;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 50px 0px;
+    padding-top: 0px;
+}
+.button p{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: #E52222;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-weight: 800;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    transition: transform .3s; 
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+
+.subSkill-box{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.skillName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: rgba(150, 150, 150, 0.221);
+    margin: 10px;
+    padding: 0px 20px;
+    border-radius: 5px;
+
+}
+.inskill{
+    justify-content: center;
+}
+.underline{
+    /* padding: 20px; */
+    width: 3rem;
+    margin: auto;
+    margin-bottom: 5px;
+    border-top: 10px solid #E52222;
+    border-radius: 5px;
+}

@@ -1,6 +1,5 @@
-
 .intro {
-    background: linear-gradient(to right, rgba(245, 245, 245, 0.048), rgb(245, 245, 245)), url(../../public/images/svg/common-bg.svg);
+    background: linear-gradient(to right, rgba(245, 245, 245, 0.048), rgb(245, 245, 245)), url(../assets/images/svg/common-bg.svg);
     background-position: center;
     height: 100vh;
     min-height: 50rem;
@@ -35,37 +34,4 @@
     width: 700px;
     line-height: 1.6;
     margin: auto;
-}
-.button{
-    height: 60px;
-    width: 250px;
-    margin: auto;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 4px;
-    padding: 50px 0px;
-}
-.button p{
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    background: #E52222;
-    color: #333;
-    letter-spacing: 2px;
-    font-weight: 700;
-    border-radius: 5px;
-    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
-    transition: transform .3s; 
-}
-
-.btn:hover {
-    transform: translateY(-3px);
-    cursor: pointer;
 }
