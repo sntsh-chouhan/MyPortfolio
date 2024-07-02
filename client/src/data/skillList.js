@@ -6,7 +6,7 @@ export const SkillList = [
     },
     {
         id: "2",
-        feild: "Languages",
+        feild: "Programming Languages",
         skills: ["Javascript", "Python", "C", "C++"],
     },
     {

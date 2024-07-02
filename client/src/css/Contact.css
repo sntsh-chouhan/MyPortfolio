@@ -1,6 +1,6 @@
 .contact-root{
     height: auto;
-    background-color: #ffffff;
+    background-color: rgb(26, 27, 28);
     padding-top: 85px;
 }
 .contact-root h1{
@@ -16,7 +16,7 @@
     margin-bottom: -20px;
 }
 .vl {
-    border-left: 5px solid #E52222;
+    border-left: 5px solid #ffffff;
     border-radius: 5px;
 
   }
@@ -35,7 +35,7 @@
     margin-left: auto;
 }
 .contactInfo svg{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin: 10px;
     font-size: 60px;
     cursor: pointer;
@@ -67,7 +67,7 @@
 
 .contactNo p a{
     text-decoration: none;
-    color: #000000;
+    color: #c2c0be;
     font-weight: 700;
 }
 .footer {

@@ -22,11 +22,13 @@ const ProjectDetails = ({project}) => {
     
     return ( 
         <div className="projectDetails">
-            <div className="projectImage">
+            <div className="projectImage" onClick={showModal}>
                 <img src={project.image} alt=""  />
+            </div>
+            {/* <img className="projectImage" src={project.image} alt=""  /> */}
             <div className="projectInfo">
                 <h2>{project.name}</h2>
-                <p className="projectInformation">{project.details}</p>
+                {/* <p className="projectInformation">{project.details}</p> */}
                 <div className="button" onClick={showModal}>
                     <p className='btn'>More Information</p>
                 </div>
@@ -52,7 +54,6 @@ const ProjectDetails = ({project}) => {
                         
                     </div>
                 </div>
-            </div>
             </div>
         </div>
      );

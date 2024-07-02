@@ -5,14 +5,18 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-      box-sizing: border-box;
-      position: relative;
-      line-height: 1.5;
-      font-family: sans-serif;
-      overflow-x: hidden;
-      overflow-y: scroll;
-      font-family: 'Source Sans Pro', sans-serif;
-  }
+    box-sizing: border-box;
+    position: relative;
+    line-height: 1.5;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #c2c0be;
+}
+body::-webkit-scrollbar {
+    display: none; 
+}
   
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -41,8 +45,8 @@ body {
     align-items: center;
     height: 100%;
     width: 100%;
-    background: #E52222;
-    color: #ffffff;
+    background: #898989;
+    color: #000000;
     letter-spacing: 2px;
     font-weight: 800;
     border-radius: 10px;
@@ -59,7 +63,6 @@ body {
 .subSkill-box{
     display: flex;
     flex-wrap: wrap;
-    
 }
 .skillName{
     display: flex;
@@ -70,7 +73,14 @@ body {
     margin: 10px;
     padding: 0px 20px;
     border-radius: 5px;
-
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    color: #e4e4e4;
+    font-weight: 500;
+}
+.skillName:hover{
+    transform: scale(1.1, 1);
+    /* zoom: 1.1; */
 }
 .inskill{
     justify-content: center;
@@ -80,6 +90,6 @@ body {
     width: 3rem;
     margin: auto;
     margin-bottom: 5px;
-    border-top: 10px solid #E52222;
+    border-top: 10px solid #ffffff;
     border-radius: 5px;
 }
