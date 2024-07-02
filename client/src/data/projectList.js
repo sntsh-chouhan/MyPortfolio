@@ -5,7 +5,7 @@ import Proj3 from "../assets/projectImages/Proj3.jpg";
 export const ProjectList = [
     {
         id: "1",
-        name: "Project 1",
+        name: "Project for doingstuff",
         image: Proj1,
         skills: ["Flutter","Firebase","Dart"],
         summary: "basic summary here Lorem ipsum dolor sit",
@@ -30,13 +30,13 @@ export const ProjectList = [
         details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae quod deserunt eius sapiente solutions for complex problems",
         link:"https://example.com/",
     },
-    {
-        id: "4",
-        name: "project4",
-        image: Proj3,
-        skills: ["Flutter","Firebase","Dart"],
-        summary: "basic summary here Lorem ipsum dolor sit",
-        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae quod deserunt eius sapiente solutions for complex problems",
-        link:"https://example.com/",
-    },
+    // {
+    //     id: "4",
+    //     name: "project4",
+    //     image: Proj3,
+    //     skills: ["Flutter","Firebase","Dart"],
+    //     summary: "basic summary here Lorem ipsum dolor sit",
+    //     details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae quod deserunt eius sapiente solutions for complex problems",
+    //     link:"https://example.com/",
+    // },
   ];

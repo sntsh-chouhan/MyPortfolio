@@ -28,7 +28,6 @@ const ProjectDetails = ({project}) => {
             {/* <img className="projectImage" src={project.image} alt=""  /> */}
             <div className="projectInfo">
                 <h2>{project.name}</h2>
-                {/* <p className="projectInformation">{project.details}</p> */}
                 <div className="button" onClick={showModal}>
                     <p className='btn'>More Information</p>
                 </div>

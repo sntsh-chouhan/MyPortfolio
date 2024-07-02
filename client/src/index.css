@@ -13,6 +13,7 @@ body {
     overflow-y: scroll;
     font-family: 'Source Sans Pro', sans-serif;
     color: #c2c0be;
+    background-color: #000000;
 }
 body::-webkit-scrollbar {
     display: none; 
