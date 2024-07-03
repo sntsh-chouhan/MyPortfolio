@@ -36,10 +36,12 @@
 }
 .contactInfo svg{
     color: rgb(255, 255, 255);
-    margin: 10px;
+    margin: 5px;
     font-size: 60px;
     cursor: pointer;
-
+    transition: 0.5s ease;
+    padding: 5px;
+    
 }
 @media (max-width: 1000px) {
     .contactInfo svg {
@@ -67,8 +69,11 @@
 
 .contactNo p a{
     text-decoration: none;
-    color: #c2c0be;
+    color: #c4c4c4;
     font-weight: 700;
+}
+.contactNo :hover{
+    color: #ffffff;
 }
 .footer {
     width: 100%;
@@ -85,7 +90,7 @@
     text-decoration: none;
     color: #ffffff;
 }
-.footer p a{
+.footer a{
     text-decoration: none;
     color: #ffffff;
 }

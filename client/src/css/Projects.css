@@ -45,10 +45,12 @@
 .projectImage img{
     width: 100%;
     transition: 0.2s all ease-in-out;
+    filter: blur(3px);
     
 }
 .projectDetails:hover img {
     transform: scale(1.1);
+    filter: blur(0px);
 }
 .projectInfo{
     /* z-index: 1; */
@@ -58,7 +60,7 @@
     height: 100%;
     /* margin: 0px 80px; */
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     
@@ -68,8 +70,8 @@
     text-align: center;
     font-size: 4rem;
     font-weight: 700;
-    margin: 0;
-    /* margin-bottom: 20px; */
+    margin: auto;
+    /* margin-top: 10px; */
 }
 .projectInfo p{
     text-align:start;
@@ -77,6 +79,7 @@
 }
 .projectInfo .button{
     margin: 0;
+    margin-bottom: 10px;
     /* padding: 0; */
 }
 
@@ -114,7 +117,7 @@
     background-color: rgb(24, 24, 24);
     padding: 20px;
     border-radius: 5px;
-    max-width: 700px;
+    max-width: 900px;
     width: 80%;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     -webkit-animation-name: animatetop;
@@ -136,6 +139,7 @@
 }
 .modalcontent img{
     width: 50%;
+    transition: 0.5s ease-in-out;
 }
 .modalcontent p{
     justify-content: center;
@@ -152,8 +156,11 @@
 .imageLink img {
     width: 100%; /* Make the image take up the full width of the wrapper */
     height: auto; /* Maintain aspect ratio */
-    filter: invert(1);
+    
   }
+.linkImg{
+    /* filter: invert(1); */
+}
 .modalImg{
     display: block;
     margin: auto;

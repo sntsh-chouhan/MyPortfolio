@@ -23,7 +23,7 @@ const ProjectDetails = ({project}) => {
     return ( 
         <div className="projectDetails">
             <div className="projectImage" onClick={showModal}>
-                <img src={project.image} alt=""  />
+                <img src={project.image} alt="" className='primary' />
             </div>
             {/* <img className="projectImage" src={project.image} alt=""  /> */}
             <div className="projectInfo">

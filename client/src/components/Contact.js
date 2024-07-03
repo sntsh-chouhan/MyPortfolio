@@ -20,14 +20,14 @@ const Contact = ({ scrollTo, refs }) => {
                 <div class="vl"></div>
                 <div className="contactInfo">
                     <h2>Reach out to me on...</h2>
-                    <a href="https://github.com/sntsh-chouhan" rel="noreferrer" target="_blank"><GitHub/></a>
-                    <a href="http://linkedin.com/in/santosh94" rel="noreferrer" target="_blank"><LinkedInIcon/></a>
-                    <a href="https://www.instagram.com/sntsh._" rel="noreferrer" target="_blank"><InstagramIcon/></a>
-                    <a href="https://wa.me/917999907332" rel="noreferrer" target="_blank"><WhatsAppIcon/></a>
+                    <a className ="contact-logo" href="https://github.com/sntsh-chouhan" rel="noreferrer" target="_blank"><GitHub/></a>
+                    <a className ="contact-logo" href="http://linkedin.com/in/santosh94" rel="noreferrer" target="_blank"><LinkedInIcon/></a>
+                    <a className ="contact-logo" href="https://www.instagram.com/sntsh._" rel="noreferrer" target="_blank"><InstagramIcon/></a>
+                    <a className ="contact-logo" href="https://wa.me/917999907332" rel="noreferrer" target="_blank"><WhatsAppIcon/></a>
                     <div className="contactNo">
                         <p><a href="mailto: santosh.c0308@gmail.com">santosh.c0308@gmail.com</a></p>
                         <p><a href="mailto: santosh.chouhan@iitg.ac.in">santosh.chouhan@iitg.ac.in</a></p>
-                        <p><a href="callto: 7999907332">+91 79999907332</a></p>
+                        <p><a href="callto: +917999907332">+91 79999907332</a></p>
                             
                     </div>
                 </div>
