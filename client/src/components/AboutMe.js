@@ -43,7 +43,9 @@ const AboutMe = ({ scrollTo, refs }) => {
                         <div className="aboutInfo">
                             <h2>NSS Cell, IIT Guwahati</h2>
                             <h4>Assosiation with NSS cell at IIT Guwahati as Unit cordinator</h4>
-                            <p>my responsibility is to organise event in social servise and working on campagins to improve lives of people of addopted village under my unit</p>
+                            <p>Led Community service projects within NSS and beyond, fostering a collaborative environment, resulting in successful
+                            initiatives and a positive community impact in education, awareness and cleanliness.</p>
+                            <p>Directed a group of 1000+ volunteers and coordinated with a team of 20+ members including faculty of IIT Guwahati.</p>
                         </div>
                     </div>
                     <div className="activity">
@@ -51,9 +53,10 @@ const AboutMe = ({ scrollTo, refs }) => {
                             <img src={GOA} alt="" />
                         </div>
                         <div className="aboutInfo">
-                            <h2>NSS Cell, IIT Guwahati</h2>
-                            <h4>Assosiation with NSS cell at IIT Guwahati as Unit cordinator</h4>
-                            <p>my responsibility is to organise event in social servise and working on campagins to improve lives of people of addopted village under my unit</p>
+                            <h2>Samagra Shiksha Assam</h2>
+                            <h4>Student Mentor</h4>
+                            <p> was responsible in the implementation of Tinkering Lab, a Rashtriya Avishkar Abhiyan (RAA) project, which aims to provide education to school students about emerging technology in fields of electronics, Robotics, AI/ML etc. </p>
+                            <p>During course of tenure, I was responsible of a class of students insuring they understand all the concepts and gave them hands own experience on Robotics, ML, etc. and build multitude of projects explaining same.</p>
                         </div>
                     </div>
                 </div>

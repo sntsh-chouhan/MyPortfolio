@@ -47,7 +47,7 @@ body::-webkit-scrollbar {
     align-items: center;
     height: 100%;
     width: 100%;
-    background: #bbbbbb;
+    background: #dbdbdb;
     color: #000000;
     letter-spacing: 2px;
     font-weight: 800;
@@ -76,13 +76,13 @@ body::-webkit-scrollbar {
     margin: 10px;
     padding: 0px 20px;
     border-radius: 5px;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.5s ease-in-out;
     overflow: hidden;
     color: #e4e4e4;
     font-weight: 500;
 }
 .skillName:hover{
-    transform: scale(1.1, 1);
+    transform: scale(1.15, 1);
     /* zoom: 1.1; */
 }
 .inskill{

@@ -18,7 +18,8 @@
     flex-wrap: wrap; 
     justify-content: center;
     align-items: center;
-    /* width: 90%; */
+    width: 80%;
+    margin: auto;
 
 }
 .projectDetails{
@@ -68,9 +69,10 @@
 }
 .projectInfo h2{
     text-align: center;
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: 700;
     margin: auto;
+    /* width: 80%; */
     /* margin-top: 10px; */
 }
 .projectInfo p{
@@ -158,9 +160,9 @@
     height: auto; /* Maintain aspect ratio */
     
   }
-.linkImg{
+/* .linkImg{ */
     /* filter: invert(1); */
-}
+/* } */
 .modalImg{
     display: block;
     margin: auto;
@@ -179,4 +181,5 @@
     border: none;
     font-size: 24px;
     cursor: pointer;
+    filter: invert(1);
 }

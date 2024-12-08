@@ -14,7 +14,7 @@ const Contact = ({ scrollTo, refs }) => {
                 <div className="ContactNote">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis temporas</p>
                     <div className="button">
-                        <p className='btn'>My resume</p>
+                        <p href="" className='btn'><a href="https://drive.google.com/file/d/1t0Ar2B-XCLXfCM3YRHCclgLGyClHYalk/view?usp=sharing" style={{ color: "black", textDecoration: "none"}} target="_blank" >My Resume</a></p>
                     </div>
                 </div>
                 <div class="vl"></div>
